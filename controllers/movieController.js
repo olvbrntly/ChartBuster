@@ -1,4 +1,4 @@
-const Movie = require('../model/movie');
+const Movie = require('../models/movie');
 const asyncHandler = require("express-async-handler");
 
 //Display list of Movies
