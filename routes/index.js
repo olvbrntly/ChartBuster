@@ -5,8 +5,7 @@ dotenv.config();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  console.log(`port:${process.env.PORT}`)
-  res.render('index', { title: 'Express'});
+  res.render('/chartbuster');
   
 });
 
