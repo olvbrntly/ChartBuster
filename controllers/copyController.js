@@ -28,7 +28,7 @@ exports.copy_get_update = asyncHandler(async(req,res,next) =>{
 })
 
 //update form for getting copy info
-exports.copy_get_update = asyncHandler(async(req,res,next) =>{
+exports.copy_post_update = asyncHandler(async(req,res,next) =>{
     res.send("not implemented: copy get update")
 })
 
@@ -38,6 +38,6 @@ exports.copy_get_delete = asyncHandler(async(req,res,next) =>{
 })
 
 //delete form for getting copy info
-exports.copy_get_delete = asyncHandler(async(req,res,next) =>{
+exports.copy_post_delete = asyncHandler(async(req,res,next) =>{
     res.send("not implemented: copy get delete")
 })
