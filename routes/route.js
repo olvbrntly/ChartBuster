@@ -55,4 +55,25 @@ router.get("/copy:id", copyController.copy_detail)
 //displays list of copies
 router.get("/copy", copyController.copy_list)
 
+// ----- GENRE ROUTES -----
 
+//handles the creation of genres
+router.get("/genre/create", genreController.genre_get_create);
+
+router.post("/genre/create",genreController.genre_post_create);
+
+//handles deletion of genres
+router.get("/genre/delete", genreController.genre_get_delete);
+
+router.post("/genre/delete", genreController.genre_post_delete);
+
+//handles updating genres
+router.get("/genre/update", genreController.genre_get_update)
+
+router.post("/genre/update", genreController.genre_post_update)
+
+//displays the detail of the selected genre
+router.get("/genre:id", genreController.genre_detail)
+
+//displays list of genres
+router.get("/genre", genreController.genre_list)
