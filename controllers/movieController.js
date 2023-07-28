@@ -22,21 +22,21 @@ exports.movie_post = asyncHandler(async(req,res,next) => {
 })
 
 //handle update on get
-exports.movie_list = asyncHandler(async(req,res,next) => {
+exports.movie_get_update = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author get update');
 })
 
 //handle update on post
-exports.movie_list = asyncHandler(async(req,res,next) => {
+exports.movie_post_update = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author post update');
 })
 
 //handle delete on get
-exports.movie_list = asyncHandler(async(req,res,next) => {
+exports.movie_get_delete = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author get delete');
 })
 
 //handle delete on post
-exports.movie_list = asyncHandler(async(req,res,next) => {
+exports.movie_post_update = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author post delete');
 })
