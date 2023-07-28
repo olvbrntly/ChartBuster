@@ -17,7 +17,7 @@ exports.movie_get_create = asyncHandler(async(req,res,next) => {
 })
 
 //handle create on post
-exports.movie_post = asyncHandler(async(req,res,next) => {
+exports.movie_post_create = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author create POst');
 })
 
@@ -37,6 +37,6 @@ exports.movie_get_delete = asyncHandler(async(req,res,next) => {
 })
 
 //handle delete on post
-exports.movie_post_update = asyncHandler(async(req,res,next) => {
+exports.movie_post_delete = asyncHandler(async(req,res,next) => {
     res.send('Not implemented:Author post delete');
 })
