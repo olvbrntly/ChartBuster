@@ -32,6 +32,27 @@ router.get("/movie:id", movieController.movie_detail)
 //displays list of movies
 router.get("/movie", movieController.movie_list)
 
+// ----- COPY ROUTES -----
 
+//handles the creation of copies
+router.get("/copy/create", copyController.copy_get_create);
+
+router.post("/copy/create",copyController.copy_post_create);
+
+//handles deletion of copies
+router.get("/copy/delete", copyController.copy_get_delete);
+
+router.post("/copy/delete", copyController.copy_post_delete);
+
+//handles updating copies
+router.get("/copy/update", copyController.copy_get_update)
+
+router.post("/copy/update", copyController.copy_post_update)
+
+//displays the detail of the selected copy
+router.get("/copy:id", copyController.copy_detail)
+
+//displays list of copies
+router.get("/copy", copyController.copy_list)
 
 
