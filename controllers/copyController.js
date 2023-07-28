@@ -1,4 +1,4 @@
-const AsyncHandler = require('express-async-handler');
+const asyncHandler = require('express-async-handler');
 const Copy = require('../models/copy');
 
 
