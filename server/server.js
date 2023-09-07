@@ -7,7 +7,7 @@ const app = express();
 connectDB();
 
 //lets app recieve and parse json data
-app.user(express.json());
+app.use(express.json());
 
 //3rd party middleware
 app.use(cookieParser());
